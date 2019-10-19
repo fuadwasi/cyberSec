@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">CyberSec</string>
+
+
+    <string name="good_password_header">
+        Characteristics of a Good Password
+    </string>
+    <string name="good_password_text_1">
+   A good password isn\'t necessarily synonymous with one that\'s easy to remember. Good, in this context, is strong. You want a super-strong password so that it\'s more resistant to guessing and so that it\'s unlikely to be found in a brute force dictionary hack.
+    </string>
+    <string name="good_password_text_2">
+   Hackers and computer intruders use automated software to submit hundreds of guesses per minute to user accounts and attempt to gain access. These tools use lists of dictionary words to sequentially guess the password. Some tools add common symbols, numbers, or signs that may be added to the password to make it more complex.
+    </string>
+    <string name="good_password_text_3">
+   Dictionary hacking tools that use an English dictionary list easily find words that are contained in that dictionary. If the simple word doesn\'t give access to an account, the tool modifies the submission and tries other iterations of the same word.
+    </string>
+
+    <string name="strong_password_header">
+   Creating a Strong Password
+</string>
+    <string name="strong_password_title1">
+   We recommend to use  a password manager for  managing and generating strong password .
+</string>
+    <string name="strong_password_title2">A strong password:</string>
+    <string name="strong_password_title3">
+       <li># Has 12 Characters, Minimum: You need to choose a password that’s long enough. There’s no minimum password length everyone agrees on, but you should generally go for passwords that are a minimum of 12 to 14 characters in length. A longer password would be even better.</li>\n
+       <li># Includes Numbers, Symbols, Capital Letters, and Lower-Case Letters: Use a mix of different types of characters to make the password harder to crack.</li>\n
+       <li># Isn’t a Dictionary Word or Combination of Dictionary Words: Stay away from obvious dictionary words and combinations of dictionary words. Any word on its own is bad. Any combination of a few words, especially if they’re obvious, is also bad. For example, “house” is a terrible password. “Red house” is also very bad.</li>\n
+       <li># Doesn’t Rely on Obvious Substitutions: Don’t use common substitutions, either — for example, “H0use” isn’t strong just because you’ve replaced an o with a 0. That’s just obvious.</li>\n
+</string>
+
+    <string name="Risks_of_open_wifi_header">
+        Risks of open wifi:
+    </string>
+    <string name="Risks_of_open_wifi_title1">
+        Open wifi zones are filled with a plethora of  cyber security flaws.The average free public Wi-Fi isn’t secure and just because you may need a password to log in, it doesn’t mean your online activities are encrypted.Various reasons make public Wi-Fi susceptible to attack. One issue has to do with the encryption protocol used by some wireless networks. Another reason has to do with the possibility of joining a rogue Wi-Fi hotspot.
+    </string>
+    <string name="Risks_of_open_wifi_title2">
+        Some wireless networks may use older standards for encryption, which can cause security problems. Wireless Encryption Protocol (WEP), one of the first encryption schemes for wireless networking devices, was found to be weak and easily susceptible to being cracked. Wi-Fi Protected Access (WPA) was intended to replace WEP as the standard for wireless networking devices, but it too was found to have weaknesses. Given their flaws, users are especially at risk when connected to a wireless network that uses these encryption protocols. In fact, tools like Aircrack-ng, available online, are built to perform brute force attacks to crack weak keys on networks using WEP or WPA.
+    </string>
+    <string name="Risks_of_open_wifi_title3">
+        Another issue that can arise when attempting to use free public Wi-Fi is the risk of joining a rogue Wi-Fi hotspot. In such case, an attacker creates a rogue hotspot with the intent to unleash man-in-the-middle (MITM) attacks on unsuspecting victims that join their rogue network. This type of attack allows an attacker to intercept the communication between you and the servers of the websites you visit, allowing them to read, insert, and modify messages.With pre-built kits that can perform MITM attacks, even minimally skilled hackers can easily eavesdrop and monitor your online traffic to capture valuable information, such as login credentials, credit card numbers, and social security numbers.
+    </string>
+
+
+    <string name="protect_yourself_header">
+    Protect Yourself
+    </string>
+
+
+    <string name="st1">
+	<li>Here are some tips for securing yourself in this vulnerable cyber world     </li>\n
+    <li>Make sure the wifi you are using is secured                                 </li>\n
+    <li>Always use trusted devices and websites                                     </li>\n
+    <li>Check the link of the websites that you visit                               </li>\n
+    <li>Make sure the site is secured with https                                    </li>\n
+    <li>If you have to use a public open wifi use a VPN                             </li>\n
+	</string>
+
+
+    <string name="vpn_header">VPN</string>
+    <string name="vst1">
+    VPN stands for Virtual Private Network. A virtual private network (VPN) extends a private network across a public network, and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running on a computing device, e.g., a laptop, desktop, smartphone, across a VPN may therefore benefit from the functionality, security, and management of the private network.
+    A VPN is created by establishing a virtual point-to-point connection through the use of dedicated circuits or with tunneling protocols over existing networks. A VPN available from the public Internet can provide some of the benefits of a wide area network (WAN). From a user perspective, the resources available within the private network can be accessed remotely.
+</string>
+    <string name="vst2">
+    In layman’s terms   a virtual private network (VPN) is programming that creates a safe and encrypted connection over a less secure network, such as the public internet. A VPN works by using the shared public infrastructure while maintaining privacy through security procedures and tunneling protocols.
+    There are a lot of free VPN which are not that secured which can sell your data to third party compromising your privacy.using a paid VPN is strongly recommended.
+</string>
+
+
+</resources>
+
+

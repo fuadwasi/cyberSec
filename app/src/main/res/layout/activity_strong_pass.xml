@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Strong_pass"
+
+    android:orientation="vertical"
+    android:fadeScrollbars="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/strong_password_header"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="#FD0000"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/strong_password_title1"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:text="Password Generator"
+            android:layout_gravity="center"
+
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="24dp"
+            android:textColor="#FFFFFF"
+            android:background="#8BC34A"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(*Enter a value between 6-32. Else the system will generate a 10 digit password.)"
+            android:layout_gravity="center"
+            android:textColor="#707172"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+
+            />
+
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:textColor="#666666"
+            android:textAlignment="center"
+            android:layout_marginTop="2dp"
+            android:id="@+id/pass_show"
+            android:inputType="number"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="4"
+        >
+
+        <Button
+            android:id="@+id/gen_but"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round1"
+            android:text="Generate" />
+
+        <Button
+            android:id="@+id/copy_but"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/round1"
+            android:text="Copy" />
+
+        <Button
+            android:id="@+id/save_but"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/round1"
+            android:text="Save" />
+        <Button
+            android:id="@+id/res_but"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/round1"
+            android:text="Reset" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/strong_password_title2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/strong_password_title3"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="30dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enter_page"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fadeScrollbars="false"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CyberSec"
+            android:layout_gravity="center"
+            android:textSize="36dp"
+            android:textColor="#2196F3"
+            android:layout_marginTop="50dp"
+
+            />
+
+        <Button
+            android:id="@+id/en_but1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            android:background="#FF9800"
+            android:text="Good Password" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Creating a Strong Password"
+            android:layout_marginTop="10dp"
+            android:id="@+id/en_but2"
+            android:background="#FF9800"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Email Safety Check"
+            android:layout_marginTop="10dp"
+            android:id="@+id/en_but3"
+            android:background="#FF9800"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Risks of Open Wifi"
+            android:layout_marginTop="10dp"
+            android:id="@+id/en_but4"
+            android:background="#FF9800"
+            />
+        <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Secure Yourself"
+        android:layout_marginTop="10dp"
+        android:id="@+id/en_but5"
+        android:background="#FF9800"
+        />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Password Strength Test"
+            android:layout_marginTop="10dp"
+            android:id="@+id/en_but6"
+            android:background="#FF9800"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Internet Speed Test"
+            android:layout_marginTop="10dp"
+            android:id="@+id/en_but7"
+            android:background="#FF9800"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

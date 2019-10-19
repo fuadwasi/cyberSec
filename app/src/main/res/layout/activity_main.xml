@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#383737"
+    android:orientation="vertical"
+    android:fadeScrollbars="false"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Welcome to CyberSec"
+        android:layout_gravity="center"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginTop="20dp"
+        />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@mipmap/cyber_security"
+            android:layout_marginTop="50dp"
+            />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="English"
+        android:layout_marginTop="25dp"
+        android:id="@+id/en_but"
+        android:background="#FF9800"
+        />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="বাংলা"
+            android:layout_marginTop="15dp"
+            android:id="@+id/bn_but"
+            android:background="#FF9800"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:layout_marginTop="15dp"
+            android:id="@+id/l_in_but"
+            android:background="#FF9800"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

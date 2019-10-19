@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "51900158046",
+    "firebase_url": "https://cybersec-c6c24.firebaseio.com",
+    "project_id": "cybersec-c6c24",
+    "storage_bucket": "cybersec-c6c24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51900158046:android:92a2acae403f77edd6e4cf",
+        "android_client_info": {
+          "package_name": "com.example.cybersec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51900158046-bj7ib7s9514l2fqn95fsfoo9qtt2jqea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cybersec",
+            "certificate_hash": "e4fdcaabdeccc6f16caf56ed8d18e6dca1d0b620"
+          }
+        },
+        {
+          "client_id": "51900158046-jfckao4js9ov47r3nfq425tgftfk7u3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDEzQF6wyVI3qP23w2hncYrqZ58LuHByE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51900158046-jfckao4js9ov47r3nfq425tgftfk7u3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

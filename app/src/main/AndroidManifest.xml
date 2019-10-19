@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cybersec">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cyber_sec_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cyber_sec_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Password_Button_Page"></activity>
+        <activity android:name=".English" />
+        <activity android:name=".SpeedTest" />
+        <activity android:name=".VPN" />
+        <activity android:name=".Pass_Checker" />
+        <activity android:name=".Secure_your_self" />
+        <activity android:name=".Risk_of_open" />
+        <activity android:name=".Strong_pass" />
+        <activity android:name=".Char_Pass" />
+        <activity android:name=".Enter_page" />
+        <activity android:name=".Email_Check" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
