@@ -39,7 +39,7 @@
             android:text="About VPN"
             android:layout_marginTop="10dp"
             android:id="@+id/vpn_but"
-            android:background="#CDDC39"
+            android:background="@drawable/round1"
             />
 
 

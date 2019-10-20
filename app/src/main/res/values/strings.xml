@@ -48,13 +48,12 @@
     </string>
 
 
-    <string name="st1">
-	<li>Here are some tips for securing yourself in this vulnerable cyber world     </li>\n
-    <li>Make sure the wifi you are using is secured                                 </li>\n
-    <li>Always use trusted devices and websites                                     </li>\n
-    <li>Check the link of the websites that you visit                               </li>\n
-    <li>Make sure the site is secured with https                                    </li>\n
-    <li>If you have to use a public open wifi use a VPN                             </li>\n
+    <string name="st1"><b>Here are some tips for securing yourself in this vulnerable Cyber world \n</b>
+    # Make sure the wifi you are using is secured     \n
+    # Always use trusted devices and websites         \n
+    # Check the link of the websites that you visit   \n
+    # Make sure the site is secured with https        \n
+    # If you have to use a public open wifi use a VPN \n
 	</string>
 
 

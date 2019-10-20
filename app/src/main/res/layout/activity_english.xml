@@ -106,7 +106,9 @@
                     android:textColor="#000000"
                     android:textSize="20dp"
                     android:visibility="visible"
-                    tools:visibility="visible" />
+                    tools:visibility="visible"
+                    android:id="@+id/email_but"
+                    />
 
                 <Button
 
@@ -161,9 +163,10 @@
                     android:layout_height="130dp"
                     android:layout_gravity="center"
                     android:background="@drawable/round"
-                    android:paddingTop="10dp"
-                    android:drawableTop="@drawable/ic_av_timer_black_24dp"
-                    android:textSize="20dp" />
+                    android:drawableTop="@drawable/speed"
+                    android:textSize="20dp"
+                    android:id="@+id/speed_chker1"
+                    />
 
             </LinearLayout>
 

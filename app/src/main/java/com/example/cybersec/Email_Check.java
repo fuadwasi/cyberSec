@@ -17,5 +17,6 @@ public class Email_Check extends AppCompatActivity {
         we_v = findViewById(R.id.web_but);
         we_v.setWebViewClient(new WebViewClient());
         we_v.loadUrl("https://haveibeenpwned.com/");
+        we_v.getSettings().setJavaScriptEnabled(true);
     }
 }

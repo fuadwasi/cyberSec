@@ -8,6 +8,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
@@ -24,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
+
 
 
         ent = findViewById(R.id.en_but);
@@ -34,10 +38,15 @@ public class MainActivity extends AppCompatActivity {
         if (wifiCheck.isConnected()) {
             // Do whatever here
             //Toast.makeText(getApplicationContext(), "Is your network Secured?", Toast.LENGTH_LONG).show();
-            AlertDialog.Builder wifiAlt = new AlertDialog.Builder(MainActivity.this);
 
+            WifiManager wifiManagera = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+            WifiInfo wifiInfoa = wifiManagera.getConnectionInfo();
+            String wifinamea = wifiInfoa.getSSID();
+
+            AlertDialog.Builder wifiAlt = new AlertDialog.Builder(MainActivity.this);
+            wifiAlt.setIcon(R.drawable.caution);
             wifiAlt.setTitle("Wifi Security Check");
-            wifiAlt.setMessage("Is your network Secured?");
+            wifiAlt.setMessage("You are connected to a wifi connection.\n\nSSID: "+wifinamea+".\n\nIs your network Secured?");
             wifiAlt.setCancelable(true);
             wifiAlt.setPositiveButton("Close", new DialogInterface.OnClickListener() {
                 @Override
@@ -77,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         exAlt.setCancelable(true);
         exAlt.setMessage("Do you want to exit?");
         exAlt.setTitle("Exit");
+
         exAlt.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
