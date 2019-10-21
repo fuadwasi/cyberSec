@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/cyber_sec_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Password_Button_Page"></activity>
+        <activity android:name=".Common_Activity"></activity>
+        <activity android:name=".Password_Button_Page" />
         <activity android:name=".English" />
         <activity android:name=".SpeedTest" />
         <activity android:name=".VPN" />
